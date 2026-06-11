@@ -1,0 +1,55 @@
+This is a full-page screenshot of the ZyraTalk landing page, focusing on their AI Answering Service.
+
+**Header & Hero Section:**
+- Logo: ZyraTalk by EverPro.
+- Headline: "From Missed Calls to Booked Jobs"
+- Subheadline: "Customers call off hours. Demand spikes. Teams stretch thin. It's part of the gig. Our 24/7 AI Assistant picks up every call, handles overflow, and schedules jobs automatically - so you never miss an opportunity again."
+- Trust badge: "Backed by EverPro, trusted by industry leaders."
+- Visual (Left): An abstract representation of a call flow. A speech bubble "Thank you for calling. How may I help you today?" with a ZyraTalk 'Z' logo. Below it, a UI showing "Job Scheduled" with a green checkmark, and a purple badge saying "After hours call turned into a $17,464 job!"
+- Form (Right): A lead capture form ("First Name", "Last Name", "Company Name", "Company URL", "Phone Number", "Email Address", "Additional Notes"). CTA Button: "Request Demo" (blue).
+
+**Audio Examples Section:**
+- Headline: "Real calls. Real bookings. Real talk."
+- Subheadline: "Hear our AI receptionist in action."
+- Three audio player widgets:
+  1. "A plumbing call that turned into a $2.3k+ job" (Play button, 2:02 length)
+  2. "After hours HVAC call that turned into a $17k+ job" (Play button, 2:41 length)
+  3. "Rescheduling an appointment for services" (Play button, 1:31 length)
+
+**Testimonial Section:**
+- Headline: "Our happy customers"
+- A large quote card: "Our experience with ZyraTalk has been nothing short of exceptional. As a company committed to enhancing customer engagement, ZyraTalk's advanced technology has significantly elevated our ability to connect with our audience in meaningful ways."
+- Author: Lyndse Texler, with a small profile photo.
+- Left and right navigation arrows and pagination dots indicating a carousel.
+
+**Comparison Section:**
+- Headline: "Stand Out from the Pack"
+- Subheadline: "We don't just answer calls - we create positive customer experiences and turn them into booked jobs."
+- Two columns comparing ZyraTalk vs. Generic AI:
+  - **ZyraTalk (with blue checkmarks):** Drives bookings through natural conversation, Reschedules appointments and answers questions in real time, Integrates with pre-existing home service workflows, programs, and tools.
+  - **Generic AI (with blue minus signs):** Handles only basic interactions, Produces generic, scripted, or robotic experiences, Restricted by limited digital ecosystems.
+
+**How it Works Section (The Play-by-Play Process):**
+- Headline: "ZyraTalk: The Play-by-Play Process"
+- Subheadline: "From call to booked job, our AI answering service takes the lead."
+- **Step 1:** Image of an office desk with a phone. UI overlay: "Thank you for calling. How may I help you today?". Text: "Answers instantly - no wait times, no hassle". CTA: "Book a Demo".
+- **Step 2:** Image of a woman in a kitchen looking at a leaky sink on her phone. UI overlay: "Hi, I've got a leak under my kitchen sink and need someone out as soon as possible." -> AI replies: "Absolutely. I can help with that. Let's get a technician scheduled for you right away." Text: "Understands the customer's intent, need, and urgency". CTA: "Book a Demo".
+- **Step 3:** Image of a scheduling software interface showing a job booked for "Heather Jones" (Leak under kitchen sink). UI overlay: "Job Scheduled". Text: "Books the job and schedules it within your existing workflow". CTA: "Book a Demo".
+- Footer for this section: "More bookings. Less friction. It's what we do."
+
+**Integrations Section:**
+- Headline: "Will This Work with My Tech Stack?"
+- Subheadline: "How you run your business is exactly that: your business."
+- Text explains they integrate with onboarding and workflows, syncing customer data, supporting existing scheduling/CRM software.
+- Logos of integrations: Service Fusion, briostack, pipedrive, serviceminder, FieldPulse, ServiceTitan, "and more...".
+
+**Bottom CTA Banner:**
+- Solid blue background with ZyraTalk logo.
+- Headline: "Stop Missing Out"
+- Subheadline: "See how ZyraTalk works on your calls. Get a personalized walkthrough tailored to your business."
+- CTA: "Book a Demo" (white button).
+
+**Footer Section:**
+- "EverPro - Built for home services. Backed by EverPro"
+- Paragraph explaining EverPro is a leading service commerce platform providing integrated SaaS solutions to home service businesses.
+- Final bottom bar: ZyraTalk by EverPro logo. "© 2024. All rights reserved." Blue gradient background.

@@ -1,0 +1,11 @@
+This is a cropped visual of a smartphone UI, seemingly from the hero section of a landing page (matches the RingCentral hero graphic).
+
+**Visual Elements:**
+- A soft, hazy, warm gradient background (peach, pink, light orange, pale blue).
+- A smartphone lying on a surface next to a ribbed metallic stylus and a notebook/portfolio.
+- The smartphone screen shows a call interface:
+  - The contact name is "Acme Dental".
+  - Above the name, a memoji-style avatar of a woman with glasses.
+  - A subtle notification bubble says "Cole, your appointment is confirmed. View your details here [Link]".
+  - Standard call controls at the bottom: Mute, Keypad, Audio, Add call, and a red End Call button in the center. 
+- The image has a very dreamy, 3D-rendered, soft-focus aesthetic.

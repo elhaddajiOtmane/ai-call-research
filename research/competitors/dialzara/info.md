@@ -1,0 +1,1 @@
+i like thre self service and there dasbourd how to make ai rescinsts by ur self 

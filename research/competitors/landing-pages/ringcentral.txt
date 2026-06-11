@@ -1,0 +1,93 @@
+This is a full-page screenshot of a RingCentral landing page focused on their "AI Receptionist" feature. 
+
+**Header:**
+- Top banner: "Limited Time: Untill June 30th, get 1 year of RingCentral AI Receptionist included. Get it now."
+- Navigation: Products, Solutions, Plans & Pricing, Partners, Resources, Company.
+- "Contact sales" and "View demo" buttons.
+
+**Hero Section:**
+- Headline: "Say goodbye to missed calls with AI Receptionist" (with "AI Receptionist" in a highlighted gradient text).
+- Subheadline: "Your always-on, AI-powered virtual assistant..."
+- CTA buttons: "Contact sales" and "See pricing".
+- Visual: A large 3D graphic showing a modern smartphone leaning on a stylus, displaying a call interface for "Acme Dental". The background is a soft, warm gradient.
+
+**Social Proof / Logos Section:**
+- "Trusted by over 400,000 businesses" (implied).
+- Logos include: Starwood, C&W Services, Echo, O'Reilly, Helix, and others.
+
+**Features / Value Prop 1:**
+- Headline: "Answer calls 24/7 with AI"
+- Four key benefits with icons:
+  1. Capture more revenue (never miss a customer).
+  2. Route calls with context.
+  3. Engage with a human-sounding voice.
+  4. Set up in minutes.
+
+**Statistics / ROI Section:**
+- Headline: "The ROI of RingCentral AI Receptionist"
+- Three large data points:
+  - 97% (decrease in missed calls).
+  - 60% (decrease in call wait time).
+  - $1.7M (projected value of recovered calls).
+- A banner showing a memoji of "Natalia, one of our AI Receptionists" and a QR code to "Chat with Natalia".
+
+**Feature Details (Left Image, Right Text):**
+- Image: A man with dreadlocks smiling at his phone, with an augmented reality UI showing an AI answering a call and booking an appointment.
+- Headline: "Your always-on, reliable front desk"
+- Bullet points: Always open with 24/7 call handling, Handle calls with consistent, friendly service, Scale without extra staff, Works with your phone and business tools.
+- CTA: "Watch video".
+
+**Feature Details (Left Text, Right Image):**
+- A small box highlighting "Your AI Receptionist now answers text messages" with checkboxes for automating responses, fast replies, and seamless handoffs. Image of a woman on her phone.
+
+**Audio Examples Section:**
+- Headline: "Experience AI Receptionists in action"
+- Four audio player widgets showing different personas/industries:
+  - Dental (appointment booking)
+  - Clinic (rescheduling)
+  - Insurance (policy question)
+  - Legal Services (new client intake)
+  - Real Estate (property info)
+
+**Second CTA Section:**
+- Repeats the hero section ("Say goodbye to missed calls...") with the same smartphone graphic.
+
+**Detailed Breakdown Section:**
+- Headline: "Effortlessly handle calls with human-like AI"
+- Four cards showing UI mockups:
+  1. Know your business (knowledge base setup).
+  2. Route calls with context (call routing logic).
+  3. Take action to resolve simple calls (integrations with Salesforce, HubSpot, Shopify, etc.).
+  4. Speak the language of your customers (language translation setup).
+
+**Testimonials / Real Results:**
+- Headline: "Real businesses. Real results."
+- Logos: Televero, Keller, and others.
+- Quote: "'Customer satisfaction soared from 79.5 to 82.5 with AI Receptionist, while communication complaints vanished—a clear win of the year.'"
+- Image of a man measuring a floor (representing a service business).
+
+**Use Cases / Video Section:**
+- Headline: "See how businesses like yours use RingCentral AI Receptionist to scale"
+- A large video player thumbnail featuring a woman with text overlays showing use cases: "Send medical intake forms", "Triage patient concerns", "Schedule appointments".
+- Bottom tabs: Financial services, Healthcare, Legal, Transportation, Real estate, Retail.
+
+**Quote Section:**
+- A quote from CX Today: "In 2025, RingCentral launched its own AI Receptionist, highlighting the tool as a real-world use case to maximize the value of AI and redefine customer experiences."
+
+**Security & Platform Section:**
+- Headline: "Built on a secure and reliable platform"
+- Four points: Lower infrastructure risk, No training on your data, Compliance-centered AI, Ethical AI.
+- Security badges: ISO 27001, SOC 2, HIPAA, etc.
+
+**Cross-Sell Section:**
+- Headline: "Explore our AI-powered products"
+- Three product cards: Business Phone, Contact Center, Events, Conversation Expert.
+
+**FAQ Section:**
+- "Frequently asked questions about AI Receptionist"
+- Several dropdown questions (e.g., "What is RingCentral AI Receptionist?", "How is it different from IVR?").
+
+**Footer area:**
+- "Check out the latest resources" (blog posts/videos).
+- Bottom large banner: "Create effortless customer experiences with RingCentral AI Receptionist" with "Contact sales" and "See pricing" buttons.
+- Standard website footer with links and social icons.

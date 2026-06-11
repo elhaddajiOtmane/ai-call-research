@@ -1,0 +1,61 @@
+This is a full-page screenshot of the Ubie Health landing page, focusing on their AI triage, phone, and scheduling solution for healthcare.
+
+**Header & Hero Section:**
+- Logo: Ubie Business.
+- Tag text: "AI TRIAGE, PHONE & SCHEDULING"
+- Headline: "Put your phones on autopilot. Smart Support AI picks up where your team leaves off." (The word "autopilot" is in a pink gradient).
+- Subheadline: "Smart Support picks up every call, triages patients, and schedules appointments when your staff can't — no callbacks, no hold times, no missed patients."
+- Lead Capture Box: "See Smart Support for your organization". Input field for "Work email". Buttons: "Book a Demo" (dark blue) and "Download info" (white). Below the email field is an error text "Please enter a valid work email."
+- Trust badges: HIPAA compliant, Validated with Mayo Clinic, Backed by Google.
+- Visual (Right): A mockup of a dashboard interface titled "Live interaction log" for "SMART SUPPORT". It shows a list of calls with times, interaction types (Lab results inquiry, New patient triage, Schedule cancellation, Billing inquiry), AI method used, and the result (e.g., "Human team escalation (routed)", "Symptom triaged -> appt booked"). A green button at the bottom says "Hear It Now". Stats below show "Wait time 0:00" and "Schedule utilized 100%".
+
+**Split Audience Banner:**
+- Dark blue background banner.
+- Text: "TWO SOLUTIONS. ONE PLATFORM."
+- Buttons: "For large hospital networks" and "For smaller practices" (pink).
+
+**Second Section (Value Prop):**
+- Tag text: "INDEPENDENT PRACTICES + SMALLER SYSTEMS" and a link "Learn about Smart Support for large hospital networks ->"
+- Headline: "Every call answered. Every slot filled." (The words "answered" and "filled" are in pink gradient).
+- Subheadline: "Each unanswered call is a patient who books elsewhere, and a front desk employee one step closer to burning out. Ubie answers every call, triages symptoms, books the slot, and pays for itself through the revenue it recaptures."
+- CTA Buttons: "Book a Demo ->" and "Download info".
+- Visual (Right): An image of a busy clinic reception desk with patients. In the foreground, a smartphone leaning against a laptop shows a chat interface with the Ubie AI asking triage questions.
+
+**Statistics Section:**
+- Three stat blocks:
+  1. "20% Increased revenue" (Existing partners see 20% revenue lift from AI-powered scheduling).
+  2. "↓ Less turnover" (Staff burnout rate from manual phone triage drastically reduced).
+  3. "$11/hr Cost effective" (Handle overage during peak and after hours for a fraction of the cost).
+  4. "0 Hold times. Callbacks. Missed calls. Fuss."
+- Left side: A list of key benefits with blue checkmarks:
+  - AI answers every call: natural language, zero hold music, zero voicemail.
+  - Proactively backfills cancellations, keeping your schedule full automatically.
+  - Dramatically reduces front desk call volume and staff turnover.
+  - Chat + voice: patients reach you however they prefer.
+  - Fast to deploy: no complex IT, no long implementation timelines.
+- Button: "Hear how Smart Support handles patients".
+- Right side: A video player placeholder thumbnail with the word "PATIENTS" in large text.
+
+**Partnership Logos Section:**
+- "DEVELOPED IN PARTNERSHIP"
+- Four logos in boxes: Ubie (Platform), Mayo Clinic Platform (Clinical Validation), Google (Infrastructure), IDEO (Design).
+
+**Bottom CTA / Form Section:**
+- Dark blue background.
+- Headline: "Learn more"
+- Subheadline: "Book a live demo, hear the AI in action, or download more info. We'll tailor it to your practice size and goals."
+- Segment toggle: "Health system / enterprise" vs "Independent practice" (pink).
+- Form fields: "Work email" (filled with jane@hospital.org). "I want to..." buttons: "Book a Demo" (blue selected) or "Download info".
+- Large pink submit button: "Submit ->"
+
+**Press & News Section:**
+- Headline: "Press & News"
+- Three article preview cards:
+  1. "Ubie Announces Collaboration to Reinvent the Healthcare Digital Front Door" (PR Newswire - Feb 12, 2024). Mentions Mayo Clinic partnership. Link: Read more.
+  2. "Ubie Announces Cumulative Total Funding of Over $125M" (PR Newswire - 2024). Link: Read more.
+  3. "Designing a Better Onboarding Experience for an AI Symptom Checker" (IDEO Case Study). Link: Read more.
+
+**Footer Section:**
+- Ubie Business logo. Text about being the unified AI front door for healthcare, built with Mayo Clinic, backed by Google.
+- Columns: COMPANY (About Us, Our Origin, Careers, News, Blog, Policies), PRODUCT (Smart Support, Symptom Checker, Consult), OFFICES (New York, Tokyo addresses).
+- Final bottom banner (Dark blue): "AI-powered patient phone support, built with Mayo Clinic." with a "Learn More" pink button.
