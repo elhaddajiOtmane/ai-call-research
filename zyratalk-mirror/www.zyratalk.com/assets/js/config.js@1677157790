@@ -1,0 +1,134 @@
+var getUrl = window.location.origin;
+var baseurl = getUrl + "/";
+var nodeJsServer = 'https://node.zyratalk.com/';
+
+
+
+var hipaConfBot = ["medical", "legal"];
+var sessionObjectJSON = {};
+var socket = null;
+var auth_key = '63NzbZ22ob296dntfJ5b';
+// CSRF TOKEN FOR EVERY FORM SUBMITION
+var tokenName = '';
+var tokenHash = '';
+
+if ( document.getElementById('__token') ){
+    tokenName = $("#__token").attr('name');
+    tokenHash = $("#__token").attr('value');
+            
+    $('<input>').attr({
+        type: 'hidden',
+        name: tokenName,
+        value:tokenHash
+    }).appendTo('form');
+}else{
+    $.ajax({
+        type: "POST",
+        url: baseurl + 'welcome/getToken/',
+        data: {},
+        async:false,
+        success: function (data) {
+            var Obj = JSON.parse(data);
+            tokenName = Obj.tokenName;
+            tokenHash = Obj.tokenHash;
+            $('<input>').attr({
+                type: 'hidden',
+                name: tokenName,
+                value:tokenHash
+            }).appendTo('form');
+        }
+    });
+    
+}
+
+
+// VAPT CSRF TOKEN 
+$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+    
+    if ( typeof options.data == 'object' ){
+        let formData = options.data;
+        formData.append(tokenName, tokenHash);
+        options.data = formData;
+        
+    }else{
+        options.data += '&'+tokenName+"="+tokenHash;
+        if (options.data.charAt(0) == '&') {
+            options.data = options.data.substr(1);
+        }
+    }
+});
+
+
+function loadConnectedUserInfo(callback){
+    //VAPT STORE SESSION IN DATABASE
+    if (document.URL.indexOf("external/live_chat") > 0){
+    sessionObjectJSON = localStorage.getItem('sessionObjectJSONFromExternal');
+        callback(sessionObjectJSON);
+    }
+    else if( localStorage.getItem('sessionObjectJSON') ){
+        let sessionId = localStorage.getItem('sessionObjectJSON');
+        $.ajax({
+            type: "POST",
+            url: baseurl + 'welcome/load_user_info',
+            async:false,
+            data: {sessionId:sessionId},
+            success: function (data) {
+                var Obj = JSON.parse(data);
+                if( Obj.status ){
+                    callback(Obj.sessionIfo);
+                }
+            }
+        });
+    }else{
+        sessionObjectJSON = null;
+    }
+}
+
+
+
+function socketInit(){
+    //VAPT STORE SESSION IN DATABASE
+    loadConnectedUserInfo(function(sessionObjectJSON){
+if (sessionObjectJSON != null) {
+    var sessionObject = JSON.parse(sessionObjectJSON);
+    if (sessionObject.user_type_user == "User") {
+        var socketQuery = 'chatKey=' + sessionObject.chatBot_id + '&userType=company';
+        var subscribeObject = {chatKey: sessionObject.chatBot_id, userType: 'company'};
+    } else {
+        if (sessionObject.user_type == "Sub-Reseller") {
+            var socketQuery = 'id=SubReseller_' + sessionObject.adminid_backend + '&userType=subReseller';
+            var subscribeObject = {id: 'SubReseller_' + sessionObject.adminid_backend + '', userType: 'subReseller'};
+        } else if (sessionObject.user_type == "Reseller") {
+            var socketQuery = 'id=Reseller_' + sessionObject.adminid_backend + '&userType=reseller';
+            var subscribeObject = {id: 'Reseller_' + sessionObject.adminid_backend + '', userType: 'reseller'};
+        } else if (sessionObject.user_type == "Admin") {
+            var socketQuery = 'id=Admin&userType=admin';
+            var subscribeObject = {id: 'Admin_' + sessionObject.adminid_backend + '', userType: 'admin'};
+        }
+    }
+if (!socket)
+                socket = io.connect(nodeJsServer, {query: socketQuery, secure: true});
+    socket.on('connect', function () {
+        var obj = subscribeObject;
+        socket.emit('subscribe', obj);
+        socket.on('welcome', function () {
+            console.log('Yay');
+        })
+    });
+   
+}
+    });
+    
+}
+//VAPT STORE SESSION IN DATABASE
+// Initiate Socket
+socketInit();
+
+
+var tmpVarVal = '';
+
+var detectedDefaultSourceLanguage = 'en';
+var detectedSourceLanguage = detectedDefaultSourceLanguage;
+var googleTranslateUrl = 'https://translation.googleapis.com/language/translate/v2';
+var google_translate_key = 'AIzaSyAKvrZ_xWI7cFvUt_qJghhSAvRZbHqRtFk';
+var google_site_key_v3="6LfhLKQkAAAAADv4QLes3emiEmZx7ReBBiT6YbBN";
