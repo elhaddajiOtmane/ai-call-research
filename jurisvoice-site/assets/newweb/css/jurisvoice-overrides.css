@@ -1,0 +1,282 @@
+/* ═══════════════════════════════════════════════════════════
+   JurisVoice Brand Overrides
+   AI Receptionist for Immigration & Personal Injury Law Firms
+   
+   This file overrides ZyraTalk's Webflow CSS with JurisVoice
+   brand colors, typography, and visual identity.
+   Include AFTER zyra-talk.webflow.css in <head>.
+   ═══════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/* ─── Design Tokens ─── */
+:root {
+  /* Brand Colors */
+  --jv-navy-900: #070D1F;
+  --jv-navy-700: #0A1640;
+  --jv-navy-500: #112060;
+  --jv-blue: #1D6FEB;
+  --jv-blue-deep: #1558CC;
+  --jv-blue-press: #0E3E9A;
+  --jv-blue-soft: #4D90FE;
+  --jv-blue-subdued: #EBF4FF;
+  --jv-green: #22C55E;
+  --jv-green-bg: #F0FFF4;
+  --jv-gold: #FBBF24;
+
+  /* Surfaces */
+  --jv-canvas: #FFFFFF;
+  --jv-canvas-ice: #F5F8FF;
+  --jv-hairline: #E5E7EB;
+
+  /* Text */
+  --jv-text: #070D1F;
+  --jv-text-secondary: #374151;
+  --jv-text-muted: #6B7280;
+  --jv-on-dark: #FFFFFF;
+  --jv-on-dark-muted: #9CA3AF;
+
+  /* Typography */
+  --jv-font: 'Inter', 'SF Pro Display', system-ui, -apple-system, sans-serif;
+}
+
+/* ─── Global Font Override (Poppins → Inter) ─── */
+body, .body,
+h1, h2, h3, h4, h5, h6,
+p, a, span, div, li, td, th, label, input, textarea, select, button,
+.h1-hero, .h2, .h3-mind-blowing, .h3-faq, .h3,
+.paragraph, .text-menu, .text-button-2,
+.paraghraph-hero, .text-reg-16, .p-faq,
+.text-footer, .text-drop-down, .text-block-2,
+.text-ai-service, .text-ai-service-calls,
+.paragraph-ai, .number-ai-process,
+.text-faq, .text-footer-link,
+.link-menu--coinbase, .nav-menu-coinbase {
+  font-family: var(--jv-font) !important;
+}
+
+/* ─── Display / Hero Typography ─── */
+.h1-hero {
+  font-weight: 800 !important;
+  letter-spacing: -1.5px !important;
+  line-height: 1.05 !important;
+}
+
+.h2.big, .h2.big.home-stiky, .h2.big.home.ai-process {
+  font-weight: 800 !important;
+  letter-spacing: -1.0px !important;
+  line-height: 1.1 !important;
+}
+
+.h3-mind-blowing {
+  font-weight: 700 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.paraghraph-hero {
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+  font-size: 18px !important;
+}
+
+/* ─── Hero Section ─── */
+.hero-section {
+  background: linear-gradient(180deg, var(--jv-navy-900) 0%, var(--jv-navy-700) 100%) !important;
+}
+
+.span-hero-home {
+  color: var(--jv-blue) !important;
+  -webkit-text-fill-color: var(--jv-blue) !important;
+}
+
+.bg-hero {
+  opacity: 0.3 !important;
+}
+
+/* ─── Primary Buttons (All Purple/Indigo → Electric Blue) ─── */
+.nav-button--coinbase.get-started,
+.nav-button--coinbase.get-started.mobile {
+  background-color: var(--jv-blue) !important;
+  border-color: var(--jv-blue) !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.nav-button--coinbase.get-started:hover,
+.nav-button--coinbase.get-started.mobile:hover {
+  background-color: var(--jv-blue-deep) !important;
+  border-color: var(--jv-blue-deep) !important;
+}
+
+.nav-button--coinbase.get-started:active {
+  background-color: var(--jv-blue-press) !important;
+}
+
+/* HubSpot / Form buttons */
+.hsfc-Button,
+.button.purple,
+.button-content.purple,
+.submit-button,
+.w-button {
+  background-color: var(--jv-blue) !important;
+  box-shadow: 0 3px 12px rgba(29, 111, 235, 0.25),
+              0 27px 19px -9px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+  font-family: var(--jv-font) !important;
+  font-weight: 600 !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.hsfc-Button:hover,
+.button.purple:hover,
+.submit-button:hover,
+.w-button:hover {
+  background-color: var(--jv-blue-deep) !important;
+}
+
+/* Form inputs */
+.hsfc-TextInput {
+  border-color: rgba(29, 111, 235, 0.25) !important;
+  font-family: var(--jv-font) !important;
+}
+
+.hsfc-TextInput:focus {
+  border-color: var(--jv-blue) !important;
+  box-shadow: 0 0 0 3px rgba(29, 111, 235, 0.15) !important;
+}
+
+/* ─── Audio Player / Play Buttons ─── */
+.toggle-button,
+.audio-button {
+  background: var(--jv-blue) !important;
+  transition: background 0.2s ease !important;
+}
+
+.toggle-button:hover,
+.audio-button:hover {
+  background: var(--jv-blue-deep) !important;
+}
+
+.bar {
+  background: var(--jv-navy-900) !important;
+}
+
+.bar.filled {
+  background: var(--jv-blue-soft) !important;
+}
+
+/* ─── Dark Sections ─── */
+.content-baner-footer-home-wrap,
+.common-footer,
+.footer-section,
+.section-dark,
+.dark-section {
+  background-color: var(--jv-navy-900) !important;
+}
+
+/* ─── Feature Cards ─── */
+.card-ai-process,
+.content-cart-ai-proces-item-wrap {
+  border-color: var(--jv-hairline) !important;
+}
+
+/* Step number circles */
+.number-ai-process {
+  background-color: var(--jv-blue) !important;
+  color: var(--jv-on-dark) !important;
+  border-radius: 50% !important;
+  font-weight: 700 !important;
+}
+
+/* ─── Icon Accents ─── */
+.icon-square {
+  background-color: var(--jv-blue-subdued) !important;
+}
+
+.icon-drop-down {
+  filter: hue-rotate(220deg) saturate(1.3) !important;
+}
+
+/* ─── Revenue / Dollar Amounts ─── */
+.dollar-amount,
+.revenue-amount {
+  color: var(--jv-green) !important;
+  font-feature-settings: "tnum" !important;
+  font-weight: 700 !important;
+}
+
+/* ─── Star Ratings ─── */
+.star-rating {
+  color: var(--jv-gold) !important;
+}
+
+/* ─── FAQ Section ─── */
+.h3-faq {
+  font-weight: 700 !important;
+  color: var(--jv-text) !important;
+}
+
+.p-faq {
+  color: var(--jv-text-secondary) !important;
+  line-height: 1.6 !important;
+}
+
+/* ─── Footer ─── */
+.common-footer,
+.footer-wrap {
+  background-color: var(--jv-navy-900) !important;
+}
+
+.text-footer,
+.text-footer-link {
+  color: var(--jv-on-dark-muted) !important;
+}
+
+.text-footer-link:hover {
+  color: var(--jv-on-dark) !important;
+}
+
+/* ─── Links ─── */
+a {
+  color: var(--jv-blue) !important;
+}
+
+.text-menu {
+  color: var(--jv-text) !important;
+}
+
+/* On dark backgrounds, links should be white */
+.common-footer a,
+.content-baner-footer-home-wrap a {
+  color: var(--jv-on-dark-muted) !important;
+}
+
+.common-footer a:hover,
+.content-baner-footer-home-wrap a:hover {
+  color: var(--jv-on-dark) !important;
+}
+
+/* ─── Loader (Splash Screen) ─── */
+.loader {
+  background-color: var(--jv-navy-900) !important;
+}
+
+.loader_progress {
+  background-color: var(--jv-blue) !important;
+}
+
+.text-block-2 {
+  font-weight: 800 !important;
+  letter-spacing: -0.5px !important;
+}
+
+/* ─── Smooth Scrolling ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Selection Color ─── */
+::selection {
+  background-color: var(--jv-blue-subdued);
+  color: var(--jv-navy-900);
+}

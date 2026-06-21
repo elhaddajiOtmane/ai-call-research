@@ -1,0 +1,113 @@
+/**
+ * Supplemental HubSpot Request Demo form styles (webflow).
+ * Page-level inline CSS is unchanged; this file only adds shared responsive fixes.
+ */
+
+/* Keep typed text/cursor out of the absolute Request Demo button */
+.hero-section .form-wrap-hero.home._1-copy .hsfc-TextInput,
+.content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer .hsfc-TextInput,
+.content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer .hsfc-TextInput,
+.form-wrap-hero.common-form .hubspot-email-form-wrap .hsfc-TextInput,
+.hero-ai-webchat-section .form-wrap-hero .hsfc-TextInput,
+.hero-legal-section .form-wrap-hero .hsfc-TextInput,
+.hero-services-section .form-wrap-hero .hsfc-TextInput {
+    padding-right: 155px !important;
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    .hubspot-email-form-wrap .hs-form-html {
+        width: 100% !important;
+    }
+}
+
+/* Mobile: full-width stacked email + button */
+@media screen and (max-width: 685px) {
+    .hero-section .form-wrap-hero.home._1-copy,
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer,
+    .form-wrap-hero.common-form,
+    .hero-ai-webchat-section .form-wrap-hero,
+    .hero-legal-section .form-wrap-hero,
+    .hero-services-section .form-wrap-hero {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        inset: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        padding: 0 12px !important;
+        flex-flow: column !important;
+        align-items: stretch !important;
+        position: relative !important;
+        overflow: visible;
+        box-sizing: border-box;
+    }
+
+    .hero-section .form-wrap-hero.home._1-copy {
+        margin-bottom: 20px;
+    }
+
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer {
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    .hero-section .form-wrap-hero.home._1-copy .hsfc-TextInput,
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer .hsfc-TextInput,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer .hsfc-TextInput,
+    .form-wrap-hero.common-form .hsfc-TextInput,
+    .hero-ai-webchat-section .form-wrap-hero .hsfc-TextInput,
+    .hero-legal-section .form-wrap-hero .hsfc-TextInput,
+    .hero-services-section .form-wrap-hero .hsfc-TextInput {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-right: 24px !important;
+    }
+
+    .hero-section .form-wrap-hero.home._1-copy .hsfc-Button,
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer .hsfc-Button,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer .hsfc-Button,
+    .form-wrap-hero.common-form .hsfc-Button,
+    .hero-ai-webchat-section .form-wrap-hero .hsfc-Button,
+    .hero-legal-section .form-wrap-hero .hsfc-Button,
+    .hero-services-section .form-wrap-hero .hsfc-Button {
+        position: static !important;
+        top: auto !important;
+        right: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+    }
+
+    .hubspot-email-form-wrap .hsfc-NavigationRow {
+        margin-top: -13px !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .form-block.home2,
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer .form-block,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero .form-block--baner,
+    .form-wrap-hero .form-block-9 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .form-wrap-hero.home._1-copy,
+    .content-baner-footer-home-wrap .form-wrap-hero.footer.common-footer,
+    .content-baner-footer-home-wrap-copy .form-wrap-hero.footer.common-footer {
+        max-width: 100% !important;
+    }
+
+    .content-baner-footer-home-wrap-copy{
+        padding-bottom: 5% !important;
+    }
+}
+
+.content-baner-footer-home-wrap{
+    min-height: 415px !important;
+}
